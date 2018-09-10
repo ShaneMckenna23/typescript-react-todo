@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-emotion": "^9.2.8",
+    "emotion": "^9.2.8",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.8",
+    "react-scripts-ts": "2.17.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.9.4",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "react-app-rewired": "^1.5.2",
+    "react-app-rewire-emotion": "^4.0.0",
+    "typescript": "^3.0.3",
+    "babel-loader": "^7.0.0"
+  }
+}
